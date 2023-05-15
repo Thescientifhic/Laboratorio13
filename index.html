@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 id="Title">Administrador de tareas</h2>
+        </nav>
+    </header>
+    <div id="Container">
+        <div id="Container_Text">
+            <textarea name="Text_Input" id="Text_Input" cols="30" rows="10" placeholder="Escribe tu nueva tarea aquí..."></textarea>
+            <button onclick="crearTarea()" id="Create_button">Publicar</button>
+        </div><div id="Container_ToDo">
+            <h2>Hacer</h2>
+            <div id="to_Do"></div></div>
+        <div id="Container_Doing">
+            <h2>Realizando</h2>
+            <div id="doing"></div></div>
+        <div id="Container_Done">
+            <h2>Terminado</h2>
+            <div  id="done"></div></div>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>
